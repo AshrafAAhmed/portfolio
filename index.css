@@ -1475,9 +1475,8 @@ span {
   /* footer start */
 
 
-  .footer-container {
-    
-    padding: 30px auto;
+ .footer-socials{
+    margin-bottom: 30px;
   }
 
   .footer-content {
