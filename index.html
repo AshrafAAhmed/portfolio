@@ -1,0 +1,241 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Ashrraf | Optimizing digital marketing strategies, tools, automation & success stories to drive digital
+        success</title>
+    <meta name="description"
+        content="Explore AI-powered marketing automation, discover the latest DM tools and technologies, learn about effective digital marketing strategies, take your e-commerce sales to the roof, and dive into case studies and success stories.">
+
+
+</head>
+
+<body class="font-[Poppins] h-screen">
+    <header class="bg-white">
+        <nav class="flex justify-between items-center w-[92%]  mx-auto">
+            <div>
+                <a href="./" aria-label="main page">
+                    <img class="w-16 cursor-pointer" src="Logo.png" alt="my website's logo">
+                </a>
+            </div>
+            <div
+                class="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
+                <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+                    <li>
+                        <a class="hover:text-blue-600" href="./about" aria-label="about me page">About</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-blue-600" href="./articles" aria-label="articles page">Articles</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-blue-600" href="./newsletter" aria-label="newsletter page">Newsletter</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="flex items-center gap-6">
+                <!-- The Button -->
+                <button id="subscribeButton" class="btn btn-primary"
+                    aria-label="click this button to join our sign-up in the newsletter">Join Now</button>
+
+
+
+                <!-- The Form (Initially Hidden) -->
+                <div id="formContainer" class="hidden">
+                    <form id="subscriptionForm" name="submit-to-google-sheet1">
+                        <!-- form elements here -->
+                        <input type="email" name="Email" placeholder="Enter your email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+                <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+            </div>
+    </header>
+    <main class="main-wrapper">
+        <section class="section-home-header">
+            <div class="container-large">
+                <div class="text-hook">
+                    <h1 class="text-hook-quote">Turn Your Treasure <br> <br> into Income</h1>
+                </div>
+                <div class="container-contents">
+                    <div class="col1">
+                        <h1 class="join">Want to join us?</h1>
+                        <p style="margin-bottom: 50px;">Join The
+                            Friday TopDigital newsletter for tips, strategies, and resources to
+                            launch, grow, and monetize
+                            your internet business.</p>
+                    </div>
+                    <div class="col2">
+                        <h1 class="start">Start Now!</h1>
+                        <div class="form">
+                            <form name="submit-to-google-sheet">
+                                <input type="email" name="Email" placeholder="Email Address" required>
+                                <button type="submit">Subscribe</button>
+                            </form>
+                            <span id="msg"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-about">
+            <div class="container-large">
+                <div class="container-about">
+                    <div class="about-img-col">
+                        <img style="width: 100%; height: auto;" src="Frame 7.png" alt="Portrait of Ashrraf">
+                    </div>
+                    <div class="about-text-col">
+                        <h1 class="about-text">Hi–I’m Ashrraf. I help internet digital enthusiasts own their digital
+                            life
+                            dream.</h1>
+                    </div>
+                </div>
+                <div class="copy">
+                    <h1>A Message to Digital Innovators</h1>
+
+                    <h1 class="copy-text"> Embracing digital marketing is about transforming your approach to business.
+                    </h1>
+                    <h1 class="copy-text">We prioritize agility, innovation, and meaningful engagement over mere profit
+                        maximization.
+
+                    </h1>
+                    <h1 class="copy-text">The digital marketer doesn’t ask: “how can I sell more?”</h1>
+                    <h1 class="copy-text">They ask: “how can I create value and impact?”, and then build strategies that
+                        resonate with their audience.
+
+                    </h1>
+                    <h1 class="copy-text">It’s not about having more; it’s about creating better experiences.
+                    </h1>
+                    <h1 class="copy-text">We keep our operations streamlined and data-driven, valuing efficiency and
+                        effectiveness.
+                    </h1>
+                    <h1 class="copy-text">Often, we leverage a diverse team of experts and cutting-edge tools.
+                    </h1>
+                    <h1 class="copy-text">Ultimately, our shared goal is simple:
+
+                    </h1>
+                    <h1 class="copy-text">Achieve the capability to innovate freely and engage authentically…doing
+                        everything that propels us forward.
+                </div>
+                <div class="mam">
+                    <a class="more-about-me" href="/about">More About Me</a>
+                </div>
+            </div>
+        </section>
+        <section class="section-help"></section>
+        <section class="section-newsletter">
+            <div class="container-newsletter">
+                <div class="newsletter-title">
+                    <p>Latest Editions of</p>
+                    <p style="font-size: 50px; margin: 40px auto; line-height: 50px;">The Friday TopDigital</p>
+                </div>
+                <div class="newsletter-content">
+                    <div class="art-card">
+                        <a href="https://www.google.com">
+                            <div id="art-img">
+                                <img src="Frame 7.png" alt="" class="art-img">
+                            </div>
+                            <div>
+                                <div>
+                                    <h1 class="art-title">From 4 years of failure to </h1>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="art-card">
+                        <a href="https://www.google.com">
+                            <div id="art-img">
+                                <img src="Frame 7.png" alt="" class="art-img">
+                            </div>
+                            <div>
+                                <div>
+                                    <h1 class="art-title">From 4 years of failure to </h1>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="art-card">
+                        <a href="https://www.google.com">
+                            <div id="art-img">
+                                <img src="Frame 7.png" alt="" class="art-img">
+                            </div>
+                            <div>
+                                <div>
+                                    <h1 class="art-title">From 4 years of failure to </h1>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="mam">
+                    <a class="more-about-me" href="newsletter.html">Read More</a>
+                </div>
+            </div>
+        </section>
+        <section class="section-status">
+            <div class="copy">
+                <div class="common_freedom_heading">
+                    <span class="text-color-cobalt" style="color: blue;">Lead your brand</span>
+                    <br>to thrive in the digital landscape.<br>
+                </div>
+                <div class="common_freedom_heading">
+                    <span class="text-color-cobalt" style="color: blue;">Lead your business</span>
+                    <br>to grow with cutting-edge digital strategies.<br>
+                </div>
+                <div class="common_freedom_heading">
+                    <span class="text-color-cobalt" style="color: blue;">Lead your audience</span>
+                    <br>to discover unparalleled value for your business.<br>
+                </div>
+                <div class="second-subscribe-form">
+                    <h1 style="font-size: 36px; margin-bottom: 30px;">Subscribe to start</h1>
+                    <p style="margin-bottom: 50px;">
+                        Join The
+                        Friday TopDigital newsletter for tips, strategies, and resources to
+                        launch, grow, and monetize
+                        your internet business.</p>
+                </div>
+                <div class="form"
+                    style="margin: 20px auto; align-items: center; justify-content: center; display: flex;">
+                    <form name="submit-to-google-sheet2">
+                        <input type="email" name="Email" placeholder="Email Address" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-component">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div>© 2024 Ashrraf LLC</div>
+                <div class="footer-wrap">
+                    <div class="footer-links">
+                        <a class="footer-link" href="./privecy-policy">Privecy policy</a>
+                        <a class="footer-link" href="./fulfillment">Fulfillment policy</a>
+                    </div>
+                    <div class="footer-socials">
+                        <a class="footer-social-link" href="https://www.linkedin.com/in/ashrraf/"
+                            aria-label="link to my linkedin profile">
+                            <div>
+                                <img class="footer-social-icon" src="linkedin.png" alt="linkedin icon">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="ashrraf.js"></script>
+</body>
+
+</html>

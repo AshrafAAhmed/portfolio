@@ -1,0 +1,255 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>What is Digital Marketing? Benefits and Metrics.</title>
+    <meta name="description" content="discover the basics and benefits of digital marketing">
+    <meta name="description" content="What is Digital Marketing? Benefits and Metrics.">
+</head>
+
+<body class="font-[Poppins] h-screen">
+    <header class="bg-white">
+        <nav class="flex justify-between items-center w-[92%]  mx-auto">
+            <div>
+                <a href="./" aria-label="main page">
+                    <img class="w-16 cursor-pointer" src="Logo.png" alt="my website's logo">
+                </a>
+            </div>
+            <div
+                class="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
+                <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+                    <li>
+                        <a class="hover:text-blue-600" href="./about" aria-label="about me page">About</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-blue-600" href="./articles" aria-label="articles page">Articles</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-blue-600" href="./newsletter" aria-label="newsletter page">Newsletter</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="flex items-center gap-6">
+                <!-- The Button -->
+                <button id="subscribeButton" class="btn btn-primary" aria-label="click this button to join our sign-up in the newsletter">Join Now</button>
+
+
+
+                <!-- The Form (Initially Hidden) -->
+                <div id="formContainer" class="hidden">
+                    <form id="subscriptionForm" name="submit-to-google-sheet1">
+                        <!-- form elements here -->
+                        <input type="email" name="Email" placeholder="Enter your email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+                <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+            </div>
+    </header>
+    <main class="main-wrapper">
+        <div class="container-articles">
+            <div class="twotoonecols">
+                <div class="reading">
+                    <h1 class="article-title">What is Digital Marketing? Benefits and Metrics.
+                    </h1>
+                    <h2 class="subheading">What is Digital Marketing?
+                    </h2>
+                    <p class="art-paragraph">Digital marketing refers to the use of online platforms and technologies to
+                        promote products, services, or brands. It encompasses a wide range of strategies and techniques
+                        aimed at reaching and engaging customers through the internet.
+
+                    </p>
+                    <h2 class="subheading">Benefits of Digital Marketing </h2>
+                    <p class="art-paragraph">In a world, where using the Internet, even for a few minutes, has become a
+                        daily routine, Digital Marketing has become a core pillar in marketing because it enables
+                        marketers to reach targeted audiences. These are a few of the benefits of digital marketing you
+                        should know.
+                    </p>
+                    <h3 class="sec-subheading">Cost-Effective
+                    </h3>
+                    <p class="art-paragraph">One of the most significant advantages of digital marketing is its
+                        cost-effectiveness. Traditional advertising methods, such as TV commercials or print ads, can be
+                        prohibitively expensive, especially for small businesses. Digital marketing, on the other hand,
+                        offers various affordable options. For instance, social media advertising can be tailored to fit
+                        almost any budget, and email marketing campaigns often require minimal financial investment
+                        while delivering high returns. This accessibility levels the playing field, enabling businesses
+                        of all sizes to compete effectively.
+                    </p>
+                    <h3 class="sec-subheading">Global Reach</h3>
+                    <p class="art-paragraph">Digital marketing breaks down geographical barriers, allowing businesses to
+                        reach a global audience. Through the Internet, even small local businesses can attract customers
+                        from around the world. This global reach is particularly beneficial for e-commerce businesses,
+                        as it opens up opportunities for international sales and brand expansion. Additionally, digital
+                        marketing tools and platforms often provide features that help tailor content to different
+                        languages and cultures, enhancing global engagement.
+                    </p>
+                    <h3 class="sec-subheading">Targeted Advertising
+                    </h3>
+                    <p class="art-paragraph">One of the most powerful features of digital marketing is its ability to
+                        target specific audiences. Unlike traditional marketing, which often involves broad, generalized
+                        campaigns, digital marketing allows businesses to segment their audience based on various
+                        criteria, such as demographics, interests, and online behavior. This precision ensures that
+                        marketing messages are delivered to those most likely to be interested in the product or
+                        service, increasing the chances of conversion and improving return on investment (ROI).
+                    </p>
+                    <h3 class="sec-subheading">Measurable Results</h3>
+                    <p class="art-paragraph">Digital marketing offers unparalleled opportunities to measure the
+                        effectiveness of campaigns. With tools like Google Analytics, businesses can track key metrics
+                        such as website traffic, bounce rates, and conversion rates in real-time. This data-driven
+                        approach enables marketers to assess what is working and what isn’t, allowing for adjustments
+                        and optimizations to improve performance. The ability to measure results accurately ensures that
+                        marketing efforts are not wasted and helps in making informed decisions for future campaigns.
+                    </p>
+                    <h3 class="sec-subheading">Real-Time Feedback</h3>
+                    <p class="art-paragraph">Another significant benefit of digital marketing is the ability to receive
+                        and respond to feedback in real-time. Social media platforms, for example, allow businesses to
+                        engage directly with customers, addressing their questions and concerns promptly. This immediate
+                        interaction helps build trust and strengthens customer relationships. Additionally, real-time
+                        feedback provides valuable insights into customer preferences and behaviors, which can be used
+                        to refine marketing strategies and improve products or services. </p>
+                    <h2 class="subheading"> Types of Digital Marketing Channels</h2>
+                    <p class="art-paragraph">Digital marketing channels are diverse and powerful tools that businesses
+                        utilize to reach and engage their target audiences effectively in the digital landscape. Here
+                        are some examples of digital channels.</p>
+
+                    <h3 class="sec-subheading">Search Engine Optimization(SEO)</h3>
+                    <p class="art-paragraph">Search Engine Optimization (SEO) involves optimizing a website to rank
+                        higher in search engine results pages (SERPs). This process includes using relevant keywords,
+                        improving site speed, and creating high-quality content to attract organic traffic. SEO is
+                        crucial because it helps increase visibility and credibility, driving more potential customers
+                        to a website without the need for paid advertising.</p>
+                    <h3 class="sec-subheading">Search Engine Marketing(SEM)</h3>
+                    <p class="art-paragraph">Search Engine Marketing (SEM) involves using paid advertising to increase a
+                        website’s visibility on search engines. This typically includes pay-per-click (PPC) ads that
+                        appear alongside search results. SEM is effective because it allows businesses to reach users
+                        who are actively searching for products or services similar to what they offer, thereby
+                        increasing the likelihood of conversions.</p>
+                    <h3 class="sec-subheading">Social Media Marketing(SMM)</h3>
+                    <p class="art-paragraph">Social Media Marketing (SMM) focuses on promoting products or services
+                        through social media platforms like Facebook, Instagram, Twitter, and LinkedIn. SMM involves
+                        creating and sharing content, engaging with followers, and running paid advertising campaigns.
+                        This channel is particularly effective for building brand awareness, fostering community
+                        engagement, and driving website traffic.</p>
+                    <h3 class="sec-subheading">Content Marketing</h3>
+                    <p class="art-paragraph">Content marketing involves creating and distributing valuable, relevant,
+                        and consistent content to attract and retain a clearly defined audience. This can include blog
+                        posts, articles, videos, infographics, and more. The goal of content marketing is to provide
+                        value to the audience, establishing the brand as a trusted authority and ultimately driving
+                        profitable customer actions.</p>
+                    <h3 class="sec-subheading">Email Marketing</h3>
+                    <p class="art-paragraph">Email marketing is the practice of sending targeted emails to prospects and
+                        customers. These emails can include newsletters, promotional offers, product updates, and more.
+                        Email marketing is highly effective due to its direct nature, allowing businesses to communicate
+                        with their audience on a personal level and nurture leads through the sales funnel.</p>
+                    <h3 class="sec-subheading">Pay-Per-Click (PPC) Advertising</h3>
+                    <p class="art-paragraph">PPC advertising involves paying a fee each time an ad is clicked. This
+                        model is commonly used in search engine advertising and social media ads. PPC is beneficial
+                        because it provides immediate visibility and can be highly targeted, ensuring that ads are shown
+                        to users who are most likely to be interested in the product or service.</p>
+                    <h3 class="sec-subheading">Affiliate Marketing</h3>
+                    <p class="art-paragraph">Affiliate marketing is a performance-based strategy where businesses reward
+                        affiliates for driving traffic or sales through their marketing efforts. Affiliates typically
+                        use their platforms, such as blogs or social media, to promote the business’s products. This
+                        approach extends the reach of the business and leverages the affiliate’s audience for increased
+                        sales and brand exposure.</p>
+                    <h3 class="sec-subheading">Influencer Marketing</h3>
+                    <p class="art-paragraph">Influencer marketing involves partnering with individuals who have a
+                        significant following on social media or other online platforms. These influencers promote the
+                        business’s products or services to their audience, leveraging their credibility and reach.
+                        Influencer marketing can be highly effective in building brand trust and reaching niche markets.
+                    </p>
+                    <h3 class="sec-subheading">Mobile Marketing</h3>
+                    <p class="art-paragraph">Mobile marketing targets users on their smartphones and tablets. This can
+                        include SMS marketing, mobile app advertising, and mobile-optimized websites. Given the
+                        increasing use of mobile devices for online activities, mobile marketing is essential for
+                        reaching a wide audience and providing a seamless user experience.</p>
+                    <h2 class="subheading">KPIs</h2>
+                    <p class="art-paragraph">Key Performance Indicators (KPIs) in digital marketing are metrics used to
+                        evaluate the effectiveness of marketing strategies, including metrics like conversion rates,
+                        click-through rates, and customer acquisition cost, and more. Here are some important metrics in
+                        digital marketing.</p>
+                    <h3 class="sec-subheading">Lead Acquisition</h3>
+                    <p class="art-paragraph">Lead acquisition is a critical KPI in digital marketing, measuring the
+                        number of potential customers generated through marketing efforts. Effective lead acquisition
+                        strategies can include offering valuable content in exchange for contact information, using
+                        targeted ads to capture interest, and optimizing landing pages to convert visitors into leads.
+                    </p>
+
+                    <h3 class="sec-subheading">Social Media Traffic</h3>
+                    <p class="art-paragraph">Social media traffic refers to the number of visitors that a website
+                        receives from social media platforms. Tracking this KPI helps businesses understand the
+                        effectiveness of their social media marketing campaigns and identify which platforms drive the
+                        most engagement and conversions.</p>
+
+                    <h3 class="sec-subheading">Open Rate</h3>
+                    <p class="art-paragraph">Open rate is a KPI used in email marketing to measure the percentage of
+                        recipients who open a specific email. A high open rate indicates that the subject line and
+                        sender name are compelling and that the audience is engaged. Monitoring open rates helps refine
+                        email marketing strategies for better performance.</p>
+
+
+                    <h3 class="sec-subheading">Conversion Rate</h3>
+                    <p class="art-paragraph">Conversion rate measures the percentage of visitors to a website who
+                        complete a desired action, such as making a purchase or filling out a form. This KPI is crucial
+                        for evaluating the effectiveness of marketing campaigns and website design in driving sales and
+                        achieving business goals.</p>
+
+                    <p class="art-paragraph">In conclusion, digital marketing offers a multitude of benefits and
+                        opportunities for businesses to connect with their audience, measure performance, and achieve
+                        growth. By leveraging various digital channels and focusing on key performance indicators,
+                        companies can create effective marketing strategies that drive success in the digital age.</p>
+
+                </div>
+                <div class="sec-reading-col">
+                    <div>
+                        <div class="second-subscribe-form">
+                            <h1 style="font-size: 24px; margin-bottom: 30px; font-weight: 500;">Subscribe to start</h1>
+                            <p style="margin-bottom: 20px; font-size: 16px;">
+                                Join The
+                                Friday TopDigital newsletter for tips, strategies, and resources to
+                                launch, grow, and monetize
+                                your internet business.</p>
+                        </div>
+                        <div>
+                            <form name="submit-to-google-sheet4">
+                                <input type="email" name="Email" placeholder="Email Address" required>
+                                <button type="submit">Subscribe</button>
+                            </form>
+                            <span id="msg"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer-component">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div>© 2024 Ashrraf LLC</div>
+                <div class="footer-wrap">
+                    <div class="footer-links">
+                        <a class="footer-link" href="./privecy-policy">Privecy policy</a>
+                        <a class="footer-link" href="./fulfillment">Fulfillment policy</a>
+                    </div>
+                    <div class="footer-socials">
+                        <a class="footer-social-link" href="https://www.linkedin.com/in/ashrraf/"
+                            aria-label="link to my linkedin profile">
+                            <div>
+                                <img class="footer-social-icon" src="linkedin.png" alt="linkedin icon">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="ashrraf.js"></script>
+</body>

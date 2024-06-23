@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Who is Ashrraf? About me| Ashrraf</title>
+    <meta name="description" content="Who is Ashrraf? About me| Ashrraf">
+</head>
+<body class="font-[Poppins] h-screen">
+    <header class="bg-white">
+        <nav class="flex justify-between items-center w-[92%]  mx-auto">
+            <div>
+                <a href="./" aria-label="main page">
+                    <img class="w-16 cursor-pointer" src="Logo.png" alt="my website's logo">
+                </a>
+            </div>
+            <div
+                class="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
+                <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+                    <li>
+                        <a class="hover:text-blue-600" href="./about" aria-label="about me page">About</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-blue-600" href="./articles" aria-label="articles page">Articles</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-blue-600" href="./newsletter" aria-label="newsletter page">Newsletter</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="flex items-center gap-6">
+                <!-- The Button -->
+                <button id="subscribeButton" class="btn btn-primary" aria-label="click this button to join our sign-up in the newsletter">Join Now</button>
+
+
+
+                <!-- The Form (Initially Hidden) -->
+                <div id="formContainer" class="hidden">
+                    <form id="subscriptionForm" name="submit-to-google-sheet1">
+                        <!-- form elements here -->
+                        <input type="email" name="Email" placeholder="Enter your email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+                <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+            </div>
+    </header>
+    <main class="main-wrapper">
+        <section class="section-about-header">
+            <div class="about-components">
+                <div class="about-myinfo">
+                    <h1 class="about-myinfo-content">Hi–I’m Ashrraf. I help internet digital enthusiasts own their digital life
+                        dream.</h1>
+                </div>
+                <div class="about-img">
+                    <img src="Frame 7.png" alt="website logo" style="width: 300px; height: 300px;">
+                </div>
+                <div class="about-info-content">
+                    <p class="about-text-color">[ My story ]</p>
+                    <p class="about-text-black">Over the past few years, I've mastered HTML, CSS, and copywriting, building a solid foundation for my digital marketing career. My journey began with creating this website from scratch.
+                    </p>
+                    <p class="about-text-color">[ then i made 2024 the beginning  ]</p>
+                    <p class="about-text-black">In 2024, I focused on AI-powered marketing automation, helping businesses enhance customer targeting and streamline their processes using advanced tools.
+                    </p>
+                    <p class="about-text-black">I develop effective digital marketing strategies, showcasing successful campaigns through case studies. My expertise in E-commerce boosts sales and online presence.
+                    </p>
+                    <p class="about-text-black">Lead acquisition and email marketing through designing campaigns that convert leads into loyal customers, optimizing for maximum ROI.
+                    </p>
+                    <p class="about-text-black">Outside work, I learn from DM entrepreneurs, and share insights, empowering others through innovative digital marketing solutions.
+
+                    </p>
+                </div>
+            </div> 
+        </section>
+        <section class="section-about-topics">
+            <div class="about-topic">
+                <div class="writing-topic">
+                    <h1 class="topic-text">I write about five topics to help you master the digital world.</h1>
+                </div><!-- Slider main container -->
+                <div class="ver-parallax">
+                    <div class="topics">
+                        <div style="color: orangered; font-size: 30px;">01</div>
+                        <div>
+                            <a class="topic-title" href="https//:www.google.com">AI-Powered Marketing Automation</a>
+                        </div>
+                        <div>
+                            <p class="topic-description">Explore how artificial intelligence is revolutionizing digital marketing through automation, personalization, AI-powered tools and technologies that can improve customer targeting, and enhance campaign performance.</p>
+                        </div>
+                    </div>
+                    <div class="topics">
+                        <div style="color: orangered; font-size: 30px;">02</div>
+                        <div ">
+                            <a class="topic-title" href="https//:www.google.com">Digital Marketing Strategies</a>
+                        </div>
+                        <div>
+                            <p class="topic-description">Explore various strategies like content marketing, social media marketing, email marketing, and search engine optimization (SEO) best practices.</p>
+                        </div>
+                    </div>
+                    <div class="topics">
+                        <div style="color: orangered; font-size: 30px;">03</div>
+                        <div>
+                            <a class="topic-title" href="https//:www.google.com">DM Tools and Technologies</a>
+                        </div>
+                        <div>
+                            <p class="topic-description">Discuss tools and technologies that can enhance digital marketing efforts, such as analytics platforms, automation tools, and CRM systems.</p>
+                        </div>
+                    </div>
+                    <div class="topics">
+                        <div style="color: orangered; font-size: 30px;">04</div>
+                        <div>
+                            <a class="topic-title" href="https//:www.google.com">Case Studies and Success Stories</a>
+                        </div>
+                        <div>
+                            <p class="topic-description"> Share real-world examples of successful digital marketing campaigns and digital transformations.</p>
+                        </div>
+                    </div>
+                    <div class="topics">
+                        <div style="color: orangered; font-size: 30px;">05</div>
+                        <div>
+                            <a class="topic-title" href="https//:www.google.com"> E-commerce and Digital Sales</a>
+                        </div>
+                        <div>
+                            <p class="topic-description"> Explore strategies for selling products and services online, including e-commerce platforms and digital sales funnels.</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <section class="section-status">
+            <div class="copy">
+                <div class="common_freedom_heading">
+                    <span class="text-color-cobalt" style="color: blue;">Lead your brand</span>
+                    <br>to thrive in the digital landscape.<br>
+                </div>
+                <div class="common_freedom_heading">
+                    <span class="text-color-cobalt" style="color: blue;">Lead your business</span>
+                    <br>to grow with cutting-edge digital strategies.<br>
+                </div>
+                <div class="common_freedom_heading">
+                    <span class="text-color-cobalt" style="color: blue;">Lead your audience</span>
+                    <br>to discover unparalleled value for your business.<br>
+                </div>
+                <div class="second-subscribe-form">
+                    <h1 style="font-size: 36px; margin-bottom: 30px;">Subscribe to start</h1>
+                    <p style="margin-bottom: 50px;">
+                        Join The
+                        Friday TopDigital newsletter for tips, strategies, and resources to
+                        launch, grow, and monetize
+                        your internet business.</p>
+                </div>
+                <div class="form"
+                    style="margin: 20px auto; align-items: center; justify-content: center; display: flex;">
+                    <form name="submit-to-google-sheet2">
+                        <input type="email" name="Email" placeholder="Email Address" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-component">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div>© 2024 Ashrraf LLC</div>
+                <div class="footer-wrap">
+                    <div class="footer-links">
+                        <a class="footer-link" href="./privecy-policy">Privecy policy</a>
+                        <a class="footer-link" href="./fulfillment">Fulfillment policy</a>
+                    </div>
+                    <div class="footer-socials">
+                        <a class="footer-social-link" href="https://www.linkedin.com/in/ashrraf/"
+                            aria-label="link to my linkedin profile">
+                            <div>
+                                <img class="footer-social-icon" src="linkedin.png" alt="linkedin icon">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="ashrraf.js"></script>
+</body>
+</html>
