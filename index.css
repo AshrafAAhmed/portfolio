@@ -1476,8 +1476,8 @@ span {
 
 
   .footer-container {
-
-    padding-bottom: 30px;
+    
+    padding: 30px auto;
   }
 
   .footer-content {
