@@ -1296,9 +1296,8 @@ span {
   }
 
   .about-text-col {
-    float: none;
-    width: auto;
-    padding: 0px auto;
+    padding: 10px;
+    margin: 10px auto;
   }
 
   .about-text {
