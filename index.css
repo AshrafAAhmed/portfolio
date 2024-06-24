@@ -1307,7 +1307,7 @@ span {
 
   .copy {
     text-align: left;
-    padding:0;
+    padding:20px;
   }
 
   .copy-text {
@@ -1317,7 +1317,7 @@ span {
     font-weight: 400;
     line-height: 30px;
     color: #151515;
-    padding: 15px;
+    padding: 0px;
   }
 
   /* second section end */
