@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Favicon/favicon-16x16.png">
+    <link rel="manifest" href="/Favicon/site.webmanifest">
+
+
+    <title>The Ultimate Guide to Creating Content Marketing Strategies</title>
+    <meta name="description" content="discover How to Create Content Marketing Strategies from scratch.">
+    <meta name="description" content="The Ultimate Guide to Creating Content Marketing Strategies.">
+</head>
+
+<body class="font-[Poppins] h-screen">
+    <header class="bg-white">
+        <nav class="flex justify-between items-center w-[92%]  mx-auto">
+            <div>
+                <a href="./" aria-label="main page">
+                    <img class="w-16 cursor-pointer" src="Logo.png" alt="my website's logo">
+                </a>
+            </div>
+            <div
+                class="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
+                <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+                    <li>
+                        <a class="hover:text-blue-600" href="./about" aria-label="about me page">About</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-blue-600" href="./articles" aria-label="articles page">Articles</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-blue-600" href="./newsletter" aria-label="newsletter page">Newsletter</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="flex items-center gap-6">
+                <!-- The Button -->
+                <button id="subscribeButton" class="btn btn-primary"
+                    aria-label="click this button to join our sign-up in the newsletter">Join Now</button>
+
+
+
+                <!-- The Form (Initially Hidden) -->
+                <div id="formContainer" class="hidden">
+                    <form id="subscriptionForm" name="submit-to-google-sheet1">
+                        <!-- form elements here -->
+                        <input type="email" name="Email" placeholder="Enter your email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+                <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+            </div>
+    </header>
+    <main class="main-wrapper">
+        <div class="container-articles">
+            <div class="twotoonecols">
+                <div class="reading">
+                    <div class="articles-box2">
+                        <div class="art-links">
+                            <a class="styled-link" href="./what-is-digital-marketing">What is Digital Marketing? Benefits and Metrics
+                            </a>                          
+                        </div>
+                        <div class="art-links">
+                            <a class="styled-link" href="./The-Ultimate-Guide-to-Creating-Content-Marketing-Strategies">The Ultimate Guide to Creating Content Marketing Strategies</a>                          
+                        </div>
+                        <div class="art-links">
+                            <a class="styled-link" href="https://www.google.com"></a>                          
+                        </div>
+                    </div>
+                </div>
+                <div class="sec-reading-col">
+                    <div>
+                        <div class="second-subscribe-form">
+                            <h1 style="font-size: 24px; margin-bottom: 30px; font-weight: 500;">Subscribe to start</h1>
+                            <p style="margin-bottom: 20px; font-size: 16px; padding: 0 10px;">
+                                Join The
+                                Friday TopDigital newsletter for tips, strategies, and resources to
+                                launch, grow, and monetize
+                                your internet business.</p>
+                        </div>
+                        <div>
+                            <form name="submit-to-google-sheet4">
+                                <input type="email" name="Email" placeholder="Email Address" required>
+                                <button type="submit">Subscribe</button>
+                            </form>
+                            <span id="msg"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer-component">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div>© 2024 Ashrraf LLC</div>
+                <div class="footer-wrap">
+                    <div class="footer-links">
+                        <a class="footer-link" href="./privecy-policy">Privecy policy</a>
+                        <a class="footer-link" href="./fulfillment">Fulfillment policy</a>
+                    </div>
+                    <div class="footer-socials">
+                        <a class="footer-social-link" href="https://www.linkedin.com/in/ashrraf/"
+                            aria-label="link to my linkedin profile">
+                            <div>
+                                <img class="footer-social-icon" src="linkedin.png" alt="linkedin icon">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="ashrraf.js"></script>
+</body>
