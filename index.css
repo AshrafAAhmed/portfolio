@@ -687,6 +687,11 @@ span {
   border-radius: 5px;
 }
 
+.articles-box2 {
+  border: 2px solid #2b64f5;
+  border-radius: 5px;
+}
+
 .styled-link {
   color: inherit;
   border-bottom: 1px solid rgb(0, 119, 255);
