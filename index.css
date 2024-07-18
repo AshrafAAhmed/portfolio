@@ -237,14 +237,6 @@ span {
   width: 50%;
 }
 
-.about-text {
-  font-family: 'Poppins';
-  letter-spacing: 0.5px;
-  font-size: 70px;
-  font-weight: 400;
-  line-height: 80px;
-  color: #151515;
-}
 
 .copy {
   background-color: #F3F4F6;
