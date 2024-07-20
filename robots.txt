@@ -1,1 +1,6 @@
-User-agent: *Disallow: /index.cssAllow: /index.htmlSitemap: http://www.ashrraf.com/sitemap.xml
+User-agent:
+Allow: /ashrraf.js
+Allow: /index.css
+Allow: /index.html
+Disallow: /index.css
+Sitemap: http://www.ashrraf.com/sitemap.xml
