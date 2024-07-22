@@ -274,6 +274,10 @@ span {
   font-weight: 500;
   cursor: pointer;
 }
+.more-about-me:hover {
+  border: 3px solid #1CD516;
+  color: #1CD516;
+}
 
 /* secend section end */
 
