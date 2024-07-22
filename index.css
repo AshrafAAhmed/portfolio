@@ -1459,8 +1459,11 @@ form[name="submit-to-google-sheet4"] button {
   }
 
   /* footer start */
-
-
+  .footer-container {
+    height: 50px;
+    font-size: 14px;
+    font-family: 'Poppins';
+  }
  .footer-socials{
     margin-bottom: 30px;
   }
