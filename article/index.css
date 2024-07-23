@@ -63,14 +63,14 @@ p {
 }
 
 .btn {
-  background-color: #324EEF;
+  background-color: #1CD516;
   color: rgb(255, 255, 255);
   padding: 5px 8px;
   border-radius: 50px;
 }
 
 .btn:hover {
-  background-color: #3a56f3;
+  background-color: #1ab915;
   transform: scale(1.05);
 }
 
@@ -93,14 +93,14 @@ p {
 
 .btn2 {
   display: none;
-  background-color: #324EEF;
+  background-color: #1CD516;
   color: rgb(255, 255, 255);
   padding: 5px 8px;
   border-radius: 50px;
 }
 
 .btn2:hover {
-  background-color: #3a56f3;
+  background-color: #1ab915;
   transform: scale(1.05);
 }
 
@@ -124,7 +124,7 @@ p {
 }
 
 .text-hook-quote {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Poppin';
   font-size: 66px;
   font-weight: 700;
   font-style: normal;
@@ -195,7 +195,7 @@ form button {
   width: 150px;
   cursor: pointer;
   color: #ffffff;
-  background-color: #2b64f5;
+  background-color: #1CD516;
   border-radius: 100px;
   font-weight: 400;
   padding: 10px 20px;
@@ -204,7 +204,7 @@ form button {
 }
 
 span {
-  color: #2b64f5;
+  color: #1CD516;
   margin-top: 20px;
   display: block;
 }
@@ -274,6 +274,10 @@ span {
   font-weight: 500;
   cursor: pointer;
 }
+.more-about-me:hover {
+  border: 3px solid #1CD516;
+  color: #1CD516;
+}
 
 /* secend section end */
 
@@ -316,7 +320,7 @@ span {
 
 #art-img {
   padding: 1px;
-  border: 1px solid #2b64f5;
+  border: 1px solid #1CD516;
   border-radius: 5px;
   margin-bottom: 30px;
   width: 305px;
@@ -366,7 +370,7 @@ span {
 }
 
 .about-myinfo-content {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Poppin';
   font-size: 100px;
   font-weight: 700;
   font-style: normal;
@@ -393,7 +397,7 @@ span {
 
 .about-text-color {
   font-size: 24px;
-  color: #2b64f5;
+  color: #1CD516;
   padding-bottom: 30px;
   margin-top: 20px;
 }
@@ -419,7 +423,7 @@ span {
 }
 
 .topic-text {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Poppin';
   font-size: 40px;
   font-weight: 700;
   font-style: normal;
@@ -442,7 +446,7 @@ span {
 
 .topic-title:hover {
   color: #fff;
-  box-shadow: inset 422px 0 0 0 #2b64f5;
+  box-shadow: inset 422px 0 0 0 #1CD516;
   ;
 }
 
@@ -520,7 +524,7 @@ span {
 
 .newsletter-articles-en {
   padding: 20px;
-  border: 1px solid #2b64f5;
+  border: 1px solid #1CD516;
   border-radius: 8px;
 }
 
@@ -539,7 +543,7 @@ span {
 
 .col-en:hover {
   .art-heading {
-    color: #2b64f5;
+    color: #1CD516;
     ;
   }
 }
@@ -573,7 +577,7 @@ span {
 
 .newsletter-articles-ar {
   padding: 20px;
-  border: 1px solid #2b64f5;
+  border: 1px solid #1CD516;
   border-radius: 8px;
 }
 
@@ -592,7 +596,7 @@ span {
 
 .col-ar:hover {
   .art-heading-ar {
-    color: #2b64f5;
+    color: #1CD516;
     ;
   }
 }
@@ -640,7 +644,7 @@ span {
 
 .articles-sector:hover {
   color: #fff;
-  box-shadow: inset 200px 0 0 0 #2b64f5;
+  box-shadow: inset 200px 0 0 0 #1CD516;
 
 }
 
@@ -655,7 +659,7 @@ span {
 
 .articles-sector-ar:hover {
   color: #fff;
-  box-shadow: inset -200px 0 0 0 #2b64f5;
+  box-shadow: inset -200px 0 0 0 #1CD516;
 
 }
 
@@ -680,13 +684,13 @@ span {
 }
 
 .articles-box2 {
-  border: 2px solid #2b64f5;
+  border: 2px solid #1CD516;
   border-radius: 5px;
 }
 
 .styled-link {
   color: inherit;
-  border-bottom: 1px solid rgb(0, 119, 255);
+  border-bottom: 1px solid #1CD516;
 }
 
 .styled-link:hover {
@@ -746,7 +750,7 @@ span {
 
 .sec-reading-col {
   width: 300px;
-  border-left: 2px solid #2b64f5;
+  border-left: 2px solid #1CD516;
   border-radius: 5px;
   padding: 30px;
 }
@@ -784,7 +788,7 @@ form[name="submit-to-google-sheet4"] button {
   width: 300px;
   cursor: pointer;
   color: #ffffff;
-  background-color: #2b64f5;
+  background-color: #1CD516;
   border-radius: 100px;
   font-weight: 400;
   padding: 10px 20px;
@@ -795,11 +799,6 @@ form[name="submit-to-google-sheet4"] button {
   margin-top: 20px;
 }
 
-span {
-  color: #2b64f5;
-  margin-top: 20px;
-  display: block;
-}
 
 
 /* footer start */
@@ -860,7 +859,7 @@ span {
 
 @media screen and (max-width: 1100px) {
   .text-hook-quote {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Poppin';
     font-size: 68px;
     font-weight: 700;
     font-style: normal;
@@ -923,7 +922,7 @@ span {
     width: 300px;
     cursor: pointer;
     color: #ffffff;
-    background-color: #2b64f5;
+    background-color: #1CD516;
     border-radius: 100px;
     font-weight: 400;
     padding: 10px 20px;
@@ -934,11 +933,7 @@ span {
     margin-top: 20px;
   }
 
-  span {
-    color: #2b64f5;
-    margin-top: 20px;
-    display: block;
-  }
+
 
   /* second section start */
   .section-about {
@@ -990,7 +985,7 @@ span {
 
 @media only screen and (max-width: 750px) {
   .text-hook-quote {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Poppin';
     font-size: 70px;
     font-weight: 700;
     font-style: normal;
@@ -1061,7 +1056,7 @@ span {
     width: 400px;
     cursor: pointer;
     color: #ffffff;
-    background-color: #2b64f5;
+    background-color: #1CD516;
     border-radius: 100px;
     font-weight: 400;
     padding: 10px 20px;
@@ -1070,11 +1065,6 @@ span {
     margin: 20px auto;
   }
 
-  span {
-    color: #2b64f5;
-    margin-top: 20px;
-    display: block;
-  }
 
   /* second section start */
   .section-about {
@@ -1153,7 +1143,7 @@ span {
     text-align: center;
     margin-top: 20px;
     width: 330px;
-    border: 2px solid #2b64f5;
+    border: 2px solid #1CD516;
     border-radius: 5px;
     margin: 10px auto;
     padding: 0px;
@@ -1192,12 +1182,12 @@ span {
 
 @media only screen and (max-width: 550px) {
   .text-hook-quote {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Poppin';
     font-size: 48px;
     font-weight: 700;
     font-style: normal;
     color: #151515;
-    line-height: 40px;
+    line-height: 50px;
     text-align: center;
   }
 
@@ -1259,7 +1249,7 @@ span {
     width: 300px;
     cursor: pointer;
     color: #ffffff;
-    background-color: #2b64f5;
+    background-color: #1CD516;
     border-radius: 100px;
     font-weight: 400;
     padding: 10px 20px;
@@ -1268,11 +1258,6 @@ span {
     margin: 20px auto;
   }
 
-  span {
-    color: #2b64f5;
-    margin-top: 20px;
-    display: block;
-  }
 
   /* second section start */
   .section-about {
@@ -1331,7 +1316,7 @@ span {
   }
 
   .about-myinfo-content {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Poppin';
     font-size: 48px;
     font-weight: 400;
     font-style: normal;
@@ -1367,7 +1352,7 @@ span {
   }
 
   .topic-text {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Poppin';
     font-size: 30px;
     font-weight: 700;
     font-style: normal;
@@ -1409,7 +1394,7 @@ span {
   }
 
   .common_freedom_heading,
-  .text-color-cobalt {
+  .text-color-green {
     font-size: 40px;
     line-height: 40px;
   }
@@ -1474,8 +1459,11 @@ span {
   }
 
   /* footer start */
-
-
+  .footer-container {
+    height: 50px;
+    font-size: 14px;
+    font-family: 'Poppins';
+  }
  .footer-socials{
     margin-bottom: 30px;
   }
