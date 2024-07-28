@@ -1,0 +1,400 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Favicon/favicon-16x16.png">
+    <link rel="manifest" href="/Favicon/site.webmanifest">
+
+
+    <title>The Ultimate Guide to Creating Content Marketing Strategies</title>
+    <meta name="description" content="discover How to Create Content Marketing Strategies from scratch.">
+    <meta name="description" content="The Ultimate Guide to Creating Content Marketing Strategies.">
+</head>
+
+<body class="font-[Poppins] h-screen">
+    <header class="bg-white">
+        <nav class="flex justify-between items-center w-[92%]  mx-auto">
+            <div>
+                <a href="./" aria-label="main page">
+                    <img class="w-16 cursor-pointer" src="Logo.png" alt="my website's logo">
+                </a>
+            </div>
+            <div
+                class="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
+                <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+                    <li>
+                        <a class="hover:text-green-600" href="./about" aria-label="about me page">About</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-green-600" href="./articles" aria-label="articles page">Articles</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-green-600" href="./newsletter" aria-label="newsletter page">Newsletter</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="flex items-center gap-6">
+                <!-- The Button -->
+                <button id="subscribeButton" class="btn btn-primary"
+                    aria-label="click this button to join our sign-up in the newsletter">Join Now</button>
+
+
+
+                <!-- The Form (Initially Hidden) -->
+                <div id="formContainer" class="hidden">
+                    <form id="subscriptionForm" name="submit-to-google-sheet1">
+                        <!-- form elements here -->
+                        <input type="email" name="Email" placeholder="Enter your email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+                <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+            </div>
+    </header>
+    <main class="main-wrapper">
+        <div class="container-articles">
+            <div class="twotoonecols">
+                <div class="reading">
+                    <h1 class="article-title">In Digital Marketing: What is Search engines optimization?</h1>
+
+                    <p class="art-paragraph">Learning what SEO is in <a
+                        href="https://www.ashrraf.com/article/what-is-digital-marketing" target="_blank"
+                        rel="noreferrer noopener"
+                        style="color: orangered;  text-decoration-line: underline;">digital marketing</a> is fundamental to every digital
+                        marketer.</p>
+                    <p class="art-paragraph">How do I know?</p>
+                    <p class="art-paragraph">Because that fundamentally changed my perspective on digital marketing.</p>
+                    <p class="art-paragraph">My name is Ashraf Ahmed and I started my digital marketing career after
+                        completing my digital marketing and E-commerce certification from Google.</p>
+                    <p class="art-paragraph">Here’s what you’re going to learn:</p>
+                    <ul class="bullet-list">
+                        <li class="bulleted">The Definition of SEO.</li>
+                        <li class="bulleted">Why SEO Matters to You as a Digital Marketer.</li>
+                        <li class="bulleted">understand pillars of SEO.</li>
+                        <li class="bulleted">How to achieve SEO rankings?</li>
+                        <li class="bulleted">How to learn SEO?</li>
+                    </ul>
+                    <p class="art-paragraph">And so much more, but let’s address the elephant in the room.</p>
+                    <p class="art-paragraph">You should feel skeptical about anyone who claims to have digital marketing
+                        career success (including me).</p>
+                    <p class="art-paragraph">I’m not going to flex on you with credentials and experience. If you’re
+                        still unsure whether you should trust me or this information, please see my stuff on Linkedin.
+                    </p>
+                    <p class="art-paragraph">You’re back?</p>
+                    <p class="art-paragraph">If so, it's time to get down to business.</p>
+
+
+
+
+
+                    <h2 class="subheading">What is SEO?</h2>
+                    <p class="art-paragraph">SEO stands for <q> Search Engine Optimization</q> and it is all about
+                        optimizing
+                        websites for search engines like Google, Microsoft Bing, and other search engines whenever
+                        people search for things of interest.
+                    <p class="art-paragraph">Searchers insert a search query which is a phrase or
+                        a keyword combination users enter in search engines to find things of interest. Then, search
+                        engines
+                        match the keywords in the query with its vast index of web pages, which has been built through
+                        continuous crawling and indexing of the web. </p>
+                    <p class="art-paragraph">For Search engine to deliver best results possible,their algorithm assesses
+                        and ranks
+                        these pages based on hundreds of factors, including relevance, content quality, and user
+                        experience. The more accurate the keywords are, the better results to show up in the search
+                        engine
+                        results page (SERP). More about that later in this article.</p>
+
+                    <h2 class="subheading">The importance of SEO to digital marketers.</h2>
+                    <p class="art-paragraph">As a digital marketer, understanding SEO is crucial to obtain success in
+                        the digital world. Being able to improve a website's rankings on search engines like Google
+                        should boost your digital career. Obviously as an SEO specialist, you have to implement
+                        successful SEO strategies that lead to these factors:</p>
+
+                    <ul class="bullet-list">
+                        <li class="bulleted">Increased organic traffic:</li>
+                        <p class="art-paragraph">Organic traffic is when searchers visit your website through an organic
+                            search. <br><br>Compared to paid advertising, increasing traffic with organic search is a
+                            long-term
+                            goal that requires time and efforts. <br><br>As I have said, it requires time to gain
+                            traffic
+                            organically and you need to persuade your clients to give it to you.</p>
+                        <li class="bulleted">Smooth User Experience:</li>
+                        <p class="art-paragraph">People remember things positively or negatively, so when visitors have
+                            an good experience on your website, it must be positively remembered.<br><br> To achieve
+                            that, improve website design with a familiar navigation section with micro-interaction
+                            animation and well-structured text.<br><br> To verify that your website has a comfort user
+                            experience, analyze metrics of engagement like engagement time.</p>
+                        <li class="bulleted">Competitive Advantage:</li>
+                        <p class="art-paragraph">The competitive advantage of SEO lies in its ability to increase
+                            organic traffic to your website.<br><br> By optimizing your site with relevant keywords and
+                            quality content, you improve visibility on search engines, making it easier for potential
+                            customers to find you. <br><br>For example, businesses that invest in SEO often see higher
+                            conversion rates and better ROI compared to other marketing strategies. <br><br>Implementing
+                            these SEO tips can help your business stay ahead in a crowded market.</p>
+                        <li class="bulleted">Credibility and Trust:</li>
+                        <p class="art-paragraph">Credibility and trust are crucial in SEO because they determine how
+                            search engines and users perceive a website's reliability and authority.<br><br>
+                            High-quality content, reputable backlinks, and user engagement help establish credibility.
+                            For example, creating helpful guides and resources can demonstrate expertise and build trust
+                            with your audience.<br><br> Trying these SEO practices ensures better search rankings and
+                            visitor loyalty, making your SEO efforts more effective and rewarding.</p>
+                        <li class="bulleted">Cost-effectiveness:</li>
+                        <p class="art-paragraph">Successful SEO strategies enhance cost-effectiveness by reducing
+                            advertising expenses and increasing organic traffic. <br><br> By optimizing content with
+                            relevant keywords and improving site structure, businesses attract targeted visitors without
+                            ads that cost a lot. <br><br> This method provides a sustainable way to reach potential
+                            customers and increase revenue.</p>
+                        <li class="bulleted">Long-term results and sustainability</li>
+                        <p class="art-paragraph">Effective SEO strategies ensure long-term results and sustainability by
+                            continuously attracting organic traffic. <br><br> Creating valuable content and following
+                            link-building practices helps maintain high rankings for long periods. <br><br> lastly This
+                            approach increases visibility and customer engagement, ensuring lasting benefits for
+                            businesses.</p>
+                    </ul>
+
+                    <h2 class="subheading">Pillars of SEO</h2>
+
+                    <p class="art-paragraph">Search Engine Optimization can be divided into several types, each with a
+                        specific focus. <br><br>In this case, On-page SEO involves optimizing web pages to rank and earn
+                        more relevant traffic in search engines by Optimizing what is on the screen. Off-page SEO refers
+                        to actions taken outside your website. Technical SEO focuses on improving the technical aspects
+                        of a website, such as site speed. <br><br> Next, we will help you Understand the different types
+                        of SEO can help you develop a more comprehensive and effective SEO strategy.</p>
+
+                    <h3 class="sec-subheading">On-page SEO</h3>
+                    <p class="art-paragraph">On-page SEO involves optimizing web pages to appear in the SERP and getting
+                        more traffic. <br><br> This involves improving the content quality, keywords research, best
+                        keyword usage, meta tags, and external and internal link building. For instance, incorporating
+                        relevant keywords naturally into the content can help search engines better understand the
+                        page’s topic and the website as a whole. <br><br> By mastering on-page SEO techniques, you can
+                        significantly solve many problems that cause bad experience to your visitors. To emphasize,
+                        on-page SEO optimizing includes: </p>
+                    <ul class="bullet-list">
+                        <li class="bulleted">Title tag</li>
+                        <p class="art-paragraph">Title tags are HTML codes that indicate what the title of a page is. it
+                            display that title in search engines in addition to social media posts, and browser tabs.
+                            Furthermore,they can encourage users to click on your page.</p>
+                        <li class="bulleted">Meta description</li>
+                        <p class="art-paragraph">A meta description tag is an HTML element on a site that provides a
+                            brief summary of the page. Search engines like Google may use it to show a snippet which is
+                            the descriptive text part of a search result. </p>
+                        <li class="bulleted">Header Tags</li>
+                        <p class="art-paragraph">Header tags are HTML tags used to set apart headings and subheadings
+                            from the rest of the content on a webpage, in descending order of importance from H1 to H6.
+                            make sure to put the main title of the page inside H1 tag.</p>
+                        <li class="bulleted">Linkable Content</li>
+                        <p class="art-paragraph">Whether we publish articles, news, essays, ebooks or stories, at the
+                            end of the day they all are content and should be valuable that people share them and other
+                            website link them on their sites.</p>
+                        <li class="bulleted">Images</li>
+                        <p class="art-paragraph">Images are very important for visually appealing and grabbing
+                            attention, they make visitors' experience enjoyable so they stay for long time. You should
+                            put you own images or the ones that has no copyright. If you don't have the skills to design
+                            your own images you can use screenshots instead.</p>
+                        <li class="bulleted">Internal Links</li>
+                        <p class="art-paragraph">An internal link is any hyperlink that leads to a page or resource on
+                            the same website. Internal Links help visitors and search engine crawlers navigate and
+                            discover new pages. For instance, think of your website navigation. You have links to
+                            different pages on your site, like About Us, articles, newsletter, and more. These links are
+                            internal links because they connect two pages on the same site.</p>
+                    </ul>
+
+                    <h3 class="sec-subheading">Off-page SEO</h3>
+                    <p class="art-paragraph">Off-page SEO refers to all the actions taken outside your own website to
+                        impact your rankings within search engine results pages (SERPs). <br><br> The primary seccess in
+                        off-page SEO is earning backlinks from reputable sites, which tell to search engines that your
+                        site is trustworthy and authoritative. Additionally, social media marketing, email marketing and
+                        influencer outreach can also boost off-page SEO. <br><br> Effective off-page SEO can greatly
+                        improve your website's domain authority and search engine ranking. Deeply, on-page SEO
+                        optimizing includes:</p>
+                    <ul class="bullet-list">
+                        <li class="bulleted">Backlinks</li>
+                        <p class="art-paragraph">Backlinks are external links from other websites that lead to your
+                            site. The more high-value backlinks your website has, the better it will rank for relevant
+                            search results. For this reason, generating backlinks for your website is one of the most
+                            important approach of discoverability and authoritativeness.</p>
+                        <li class="bulleted">Social Media Engagement</li>
+                        <p class="art-paragraph"> For more traffic and leads, social media are being used on a huge
+                            scale to get traffic from various social media platforms. this also helps with Improving
+                            engagement with users.</p>
+
+                        <li class="bulleted">Guest Posting</li>
+                        <p class="art-paragraph">Guest blogging -also known as guest posting- is the practice of writing
+                            and publishing a blog post on another website in exchange of receiving credit for their work
+                            and a link to their website (in author byline).</p>
+                    </ul>
+
+                    <h3 class="sec-subheading">Technical SEO</h3>
+                    <p class="art-paragraph">Technical SEO involves optimizing a website's technical elements to improve
+                        its search engine rankings. <br><br> This includes improving site speed, ensuring
+                        mobile-friendliness, creating an XML sitemap, and fixing broken links. For example, a
+                        fast-loading site enhances user experience and reduces bounce rates, which can positively affect
+                        rankings. <br><br> Implementing strong technical SEO practices can help search engines crawl and
+                        index your site more efficiently, leading to better visibility. Here’s how to do technical SEO
+                    </p>
+                    <ul class="bullet-list">
+                        <li class="bulleted">Mobile-friendliness</li>
+                        <p class="art-paragraph">Mobile friendliness is the measure of how well a website is designed
+                            and optimized to load on a mobile device such as a smartphone or tablet. You need to ensure
+                            that load fast with no design issues on various small screens. Finally, the content on the
+                            website version and the mobile version must match all the time.</p>
+                        <li class="bulleted">Site Speed</li>
+                        <p class="art-paragraph">All websites should have good site speed or they are going to perform
+                            bad. If a website has a bad site speed, visitor would leave, bounce rate would be high and
+                            all your SEO efforts will not gain any results. Site speed should be 0:0.2 ms, 0.2:1 second
+                            is acceptable, any number higher than 1 second needs immediate improvement.</p>
+                        <li class="bulleted">HTTPS</li>
+                        <p class="art-paragraph">In the digital world, you need to comfort your visitors that their data
+                            are secure. To demonstrate that, you need to enable your website to HTTPS which is more
+                            secure than HTTP. An SSL certificate is a data file hosted in a website's origin server. SSL
+                            certificates make SSL/TLS encryption possible, and they contain the website's public key and
+                            the website's identity, along with related information. . </p>
+                        <li class="bulleted">Broken Links</li>
+                        <p class="art-paragraph">broken links are hyperlinks that point to a page or resource that does
+                            not exist. Most often, these linked pages were deleted or moved without a redirection set
+                            up. When the user or crawler follows a broken link, the server returns a 404 (Not found) or
+                            410 (Gone) status code. You need to fix broken links whether they are broken outgoing links
+                            which are links from you website to other domains, or they are broken backlinks which are
+                            links <strong>TO</strong> your website from other domains.</p>
+                        <li class="bulleted">Crawlability</li>
+                        <p class="art-paragraph">Do you like holes in the roads? neither do crawlers. Crawlers are a
+                            type of bots that is typically operated by search engines like Google and Bing. They also do
+                            not like holes in websites' code to ultra-quickly index the content of websites all across
+                            the Internet so that those websites can appear in search engine results.</p>
+                    </ul>
+
+
+                    <h2 class="subheading">How to rank in SEO?</h2>
+                    <h3 class="sec-subheading">Know how search engines work.</h3>
+                    <p class="art-paragraph">To win the game, you have to understand the game. <br><br>Obtaining
+                        well-structured knowledge of how search engine work is essential to take your website to the
+                        SERP. <br><br>At the end of the day, search engines reward websites with best SEO strategies.
+                    </p>
+                    <h3 class="sec-subheading">Research Research Research</h3>
+                    <p class="art-paragraph">In SEO, Research is fundamental to take effective actions in the right
+                        direction.<br><br>As an SEO specialist, you will do research on daily basis, whether it is
+                        keywords research, competitors research, content ideas research and research of valuable
+                        backlinks.<br><br> Developing research skills should be a priority that needs daily practice.
+                    </p>
+                    <h3 class="sec-subheading">Create Sharable content</h3>
+                    <p class="art-paragraph">People share content every day and you want to be part of it. <br><br>To do
+                        that, your content should highlight your E-E-A-T, which stands for Experience, Expertise,
+                        Authoritativeness, and Trustworthiness. <br><br>If you can create valuable content, referral
+                        links will follow.</p>
+                    <h3 class="sec-subheading">Monitor and maintain your work</h3>
+                    <p class="art-paragraph"> Monitoring and maintaining your SEO work is crucial for sustaining SEO
+                        ranking. <br><br> Regularly track key performance metrics such as organic traffic, bounce rates,
+                        and keyword rankings to identify areas needing improvement. Utilize tools like Google Analytics
+                        and Search Console for accurate insights and to detect any issues early. <br><br> These
+                        practices help ensure your SEO efforts remain effective and achieve your objectives.</p>
+                    <h3 class="sec-subheading">Analyze and adjust</h3>
+                    <p class="art-paragraph">Analyzing and adjusting your SEO strategy is essential for achieving
+                        optimal results. <br><br> Evaluate your website's performance through detailed analytics using
+                        analytics tools like Google analytics to identify strengths and weaknesses. Make necessary
+                        adjustments to on-page elements, backlink profiles, and content quality to enhance visibility
+                        and rankings. <br><br> This approach helps maintain a competitive edge and drive continuous
+                        improvement in your SEO performance.</p>
+
+                    <h2 class="subheading">Resources to learn SEO</h2>
+                    <ul>
+                        <li>
+                            <a href="https://docs.google.com/spreadsheets/d/1hM1SWogrEzCZZL7t11Npe7Rop32JdlNCfbsJBpmY1ow/edit?usp=sharing"
+                                target="_blank" rel="noreferrer noopener"
+                                style="color: orangered;  text-decoration-line: underline;">Best SEO guide
+                                collection</a>
+                        </li>
+                        <li>
+                            <a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+                                target="_blank" rel="noreferrer noopener"
+                                style="color: orangered;  text-decoration-line: underline;">Google</a>
+                        </li>
+                        <li>
+                            <a href="https://moz.com/beginners-guide-to-seo" target="_blank" rel="noreferrer noopener"
+                                style="color: orangered;  text-decoration-line: underline;">MOZ guide</a>
+                        </li>
+                        <li>
+                            <a href="https://ahrefs.com/seo" target="_blank" rel="noreferrer noopener"
+                                style="color: orangered;  text-decoration-line: underline;">Aherfs guide</a>
+                        </li>
+                        <li>
+                            <a href="https://backlinko.com" target="_blank" rel="noreferrer noopener"
+                                style="color: orangered;  text-decoration-line: underline;">backlinko</a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/@nathangotch" target="_blank" rel="noreferrer noopener"
+                                style="color: orangered;  text-decoration-line: underline;">Nathan Gotch's youtube
+                                channel</a>
+                        </li>
+                    </ul>
+                    <br><br>
+
+
+                    <h3 class="sec-subheading">Final Thoughts</h3>
+                    <p class="art-paragraph">Understanding SEO in <a
+                            href="https://www.ashrraf.com/article/what-is-digital-marketing" target="_blank"
+                            rel="noreferrer noopener"
+                            style="color: orangered;  text-decoration-line: underline;">digital marketing</a> is not
+                    just an option; it's a
+                    necessity for any serious digital marketer. <br><br>By grasping the fundamentals of SEO, you open doors
+                    to increased organic traffic,improved user experience, competitive advantage, enhanced
+                    credibility, cost-effectiveness, and long-term sustainability.<br><br>
+                    As you integrate SEO best practices into your digital marketing strategy, remember that it’s a
+                    continuous process requiring dedication and adaptability.<br><br> Keep refining your techniques, stay
+                    updated with the latest trends, and always aim for quality over quantity.
+                    </p>
+
+                </div>
+                <div class="sec-reading-col">
+                    <div>
+                        <div class="second-subscribe-form">
+                            <h1 style="font-size: 24px; margin-bottom: 30px; font-weight: 500;">Subscribe to start</h1>
+                            <p style="margin-bottom: 20px; font-size: 16px; padding: 0 10px;">
+                                Join The
+                                Friday TopDigital newsletter for tips, strategies, and resources to
+                                launch, grow, and monetize
+                                your internet business.</p>
+                        </div>
+                        <div>
+                            <form name="submit-to-google-sheet4">
+                                <input type="email" name="Email" placeholder="Email Address" required>
+                                <button type="submit">Subscribe</button>
+                            </form>
+                            <span id="msg"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer-component">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div>© 2024 Ashrraf LLC</div>
+                <div class="footer-wrap">
+                    <div class="footer-links">
+                        <a class="footer-link" href="./privecy-policy">Privacy policy</a>
+                    </div>
+                    <div class="footer-socials">
+                        <a class="footer-social-link" href="https://www.linkedin.com/in/ashrraf/"
+                            aria-label="link to my linkedin profile">
+                            <div>
+                                <img class="footer-social-icon" src="linkedin.png" alt="linkedin icon">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="ashrraf.js"></script>
+</body>
