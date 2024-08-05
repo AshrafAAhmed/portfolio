@@ -1,3 +1,7 @@
+// ********** set date ************
+const date = document.getElementById('date');
+date.innerHTML = new Date().getFullYear();
+
 // HAMBURGER MENU START//
 
 const navLinks = document.querySelector('.nav-links')
